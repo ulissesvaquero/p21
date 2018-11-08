@@ -6,13 +6,13 @@
 
 INSTALAÇÃO
 ------------
-Após clonar o projeto
+Após clonar o projeto<br>
 
-Baixar as bibliotecas necessárias para a aplicação
+Baixar as bibliotecas necessárias para a aplicação<br>
 composer install
 
-[Criar estrutura de banco de dados (migration)]
-Criar um database chamado p21 e rodar o comando abaixo.
+[Criar estrutura de banco de dados (migration)]<br>
+Criar um database chamado p21 e rodar o comando abaixo.<br>
 php yii migrate/up
 
 
@@ -20,13 +20,13 @@ php yii migrate/up
 php yii importador/importa-base
 
 
-[Atualiza a base usando o XML enviado pelo CNJ]
+[Atualiza a base usando o XML enviado pelo CNJ]<br>
 php yii importador/atualiza-base
 
-[Envia Email (deixei apenas a estrutura pronta)]
+[Envia Email (deixei apenas a estrutura pronta)]<br>
 php yii importador/envia-email
 
-[Aonde encontrar a lógica]
+[Aonde encontrar a lógica]<br>
 commands/ImportadorController.php
 
 [Acessar a index do sistema para ter acesso ao CRUD]
@@ -34,5 +34,5 @@ commands/ImportadorController.php
 
 CONFIGURAÇÃO
 -------------
-Toda a configuração do banco de dados fica no arquivo
+Toda a configuração do banco de dados fica no arquivo<br>
 config/db.php
